@@ -5,6 +5,21 @@
   }
 }
 
+/*блог; о нас*/
+@media (max-width:768px) {
+.blog-honest {
+  display: flex;
+  flex-direction: column;
+}
+.blog-odd {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.blog-pic, .blog-text {
+  width: 100%;
+}
+}
+
 @media (max-width:900px) {
 
   .main-nav {
@@ -16,20 +31,20 @@
     
 }
   /* бургер-меню: */
-.menu-btn{
+.menu-btn {
     display: flex;
     align-items: center;
     position: absolute;
     /* top: 0;
     right:0; */
     margin-left: 150px;
-    margin-top: 70px;
+    margin-top: 10px;
     width: 26px;
     height: 26px;
     cursor: pointer;
     z-index: 1;
   }
-  .menu-btn > span,
+.menu-btn > span,
 .menu-btn > span::before,
 .menu-btn > span::after {
   display: block;
