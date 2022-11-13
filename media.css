@@ -1,6 +1,13 @@
-@media (min-width: 900px) {
+
+@media (max-width: 900px){
   body {
-    background-image: url("img/back-1700.jpg");
+    background-image: url("img/back-900.jpg");
+    background-repeat: no-repeat;
+  }
+} 
+@media (max-width: 500px) {
+  body {
+    background-image: url("img/back-700.jpg");
     background-repeat: no-repeat;
   }
 }
@@ -18,6 +25,7 @@
 .blog-pic, .blog-text {
   width: 100%;
 }
+
 }
 
 @media (max-width:900px) {

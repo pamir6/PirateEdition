@@ -4,7 +4,7 @@
 }
 body {
     width: 100%;
-    background-image: url(img/back-1024.jpg);
+    background-image: url(img/back-1700.jpg);
     background-color: #c79350;
     background-clip: border-box;
     background-attachment: fixed;
@@ -34,11 +34,7 @@ body {
     height: 80px;
     margin-top: -1px;
 }
-.bottom-edge-white {
-    
-    
-    
-   }
+
 .main-nav {
     display: flex;
     height: 45px;
@@ -201,6 +197,7 @@ ul.nav-menu:hover .nav-menu::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .first {
@@ -273,10 +270,7 @@ h3 {
     color: #3a1802;
     font-weight: normal;
 }
-h2 {
-    /* color: #3a1802; */
-    
-}
+
 h1 {
     
     text-align: left;
