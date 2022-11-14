@@ -1,6 +1,9 @@
 body {font-family:'Courier New', Courier, monospace}
-.active a {
+li.active {
     color: #F77400
+}
+.top-edge-white {
+    height: 35px;
 }
 .container{
     display:flex ;
@@ -20,7 +23,7 @@ p {
     display: flex;
     flex-direction: column-reverse;
     text-align: left;
-    height: 5px;
+    /* height: 5px; */
     color:#3a1802 ;
     margin-top: 0;
 }
@@ -34,5 +37,9 @@ p {
 }
 .about {
     text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px 5px #3a1802 ;
+
 }
 }

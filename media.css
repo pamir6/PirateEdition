@@ -84,6 +84,7 @@
     background-color: #eceff1bd;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     transition-duration: .25s;
+    box-shadow: 10px 15px 8px rgba(49, 49, 49, 0.5);
   }
   .first-page .btn {
     visibility: hidden;
