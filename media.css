@@ -1,5 +1,5 @@
 
-@media (max-width: 900px){
+@media (max-width: 800px){
   body {
     background-image: url("img/back-900.jpg");
     background-repeat: no-repeat;
@@ -70,6 +70,9 @@
   content: '';
   top: 8px;
 }
+.scull {
+  visibility: visible;
+}
 .site-menu{
     display: block;
     position: absolute;
@@ -79,7 +82,7 @@
     width: auto;
     min-width: 210px;
     margin-top: 120px;
-    padding: 80px 0;
+    padding: 10px 0;
     list-style: none;
     background-color: #eceff1bd;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
@@ -92,7 +95,7 @@
    
   .menu-item {
     display: block;
-    padding: 12px 24px;
+    padding: 24px;
     color: #333;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
