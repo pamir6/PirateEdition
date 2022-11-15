@@ -89,13 +89,16 @@
     transition-duration: .25s;
     box-shadow: 10px 15px 8px rgba(49, 49, 49, 0.5);
   }
+a.products {
+  /* visibility: hidden; */
+}
   .first-page .btn {
     visibility: hidden;
   }
    
   .menu-item {
     display: block;
-    padding: 24px;
+    padding: 20px;
     color: #333;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
