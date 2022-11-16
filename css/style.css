@@ -262,12 +262,16 @@ ul.nav-menu:hover .nav-menu::before {
     font-family: Arlekino;
     src: url(../fonts/Arlekino.ttf);
    }
-h1.edition, h1.stuff{
+h1.edition, h1.stuff {
     display: block;
     color:rgb(0, 0, 0);
     font-weight: normal;
     text-shadow: 8px 10px 5px rgba(29, 28, 28, 0.5);
     font-family: Arlekino;
+}
+.PE {
+    font-family: Arlekino;
+    color: black;
 }
 h1 {
     text-align: left;
@@ -306,6 +310,7 @@ a.products {
   }
   .container p {
     text-align: justify;
+    font-weight: bold;
     /* padding-right: 10%; */
   }
   .blog-text p{
