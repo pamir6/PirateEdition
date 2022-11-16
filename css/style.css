@@ -3,7 +3,7 @@
 }
 body {
     width: 100%;
-    background-image: url(img/back-1700.jpg);
+    background-image: url(../img/back-1700.jpg);
     background-color: #c79350;
     background-clip: border-box;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ body {
     min-width: 360px;
 }
 .bottom-edge-white {
-    background-image: url(img/bottom-line.png);
+    background-image: url(../img/bottom-line.png);
     background-position: top right;
     background-clip: border-box;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@ li a:hover {
     min-width: 360px;
 }    
 .top-edge {    
-    background-image: url(img/top-line-brown.png);
+    background-image: url(../img/top-line-brown.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -135,7 +135,7 @@ ul.nav-menu:hover .nav-menu::before {
     font-size: 60px;
     /* margin-top: 100px; */
     margin-bottom: -1px;
-    background-image: url(img/top-line.png);
+    background-image: url(../img/top-line.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -163,11 +163,12 @@ ul.nav-menu:hover .nav-menu::before {
     padding: 5%;
     align-items: center;
     font-family:'Courier New', Courier, monospace;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: xx-large;
     text-align: center;
 }
 .flag {
+    align-self: baseline;
     float: right;
     width: 10%;
     height: auto
@@ -198,7 +199,8 @@ ul.nav-menu:hover .nav-menu::before {
     font-size: x-large;
 }
 .first {
-    background-color: #a6a6a6;padding: 10px;
+    background-color: #a6a6a6;
+    padding: 10px;
 }
 .second {
     background-color: #c79350;
@@ -234,9 +236,10 @@ ul.nav-menu:hover .nav-menu::before {
     border: none;
     cursor: pointer;
     border-radius: 50px;
-    padding: 12px 30px;
+    padding: 5px 20px;
     text-align: center;
-    min-width: 200px;
+    max-width: fit-content;
+    /* min-width: 200px; */
 }
 .btn:active {
     border: 2px inset rgb(119, 116, 116) ;
@@ -254,22 +257,25 @@ ul.nav-menu:hover .nav-menu::before {
     min-width: 360px;
     margin-left: 10%;
 }
- h1.edition, h1.stuff{
+@font-face {
+    font-family: Arlekino;
+    src: url(../fonts/Arlekino.ttf);
+   }
+h1.edition, h1.stuff{
     display: block;
-    color:white;
+    color:rgb(0, 0, 0);
     font-weight: normal;
-    text-shadow: 4px 8px 5px rgb(0, 0, 0);
+    text-shadow: 8px 10px 5px rgba(29, 28, 28, 0.5);
+    font-family: Arlekino;
 }
 h1 {
     text-align: left;
     text-transform: uppercase;
     font-weight: lighter;
     font-size: 50px;
-    width: 100%;
-}
-h1 {
+    /* width: 100%; */
     padding-left: 10%;
-    width: 80%;
+    width: 80%;    
 }
 h2 {
     width: 80%;

@@ -1,17 +1,21 @@
-
 @media (max-width: 800px){
   body {
-    background-image: url("img/back-900.jpg");
+    background-image: url("../img/back-900.jpg");
     background-repeat: no-repeat;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .advent {
+    font-size: xx-large;
   }
 } 
 @media (max-width: 500px) {
   body {
-    background-image: url("img/back-700.jpg");
+    background-image: url("../img/back-700.jpg");
     background-repeat: no-repeat;
   }
 }
-
 /*блог; о нас*/
 @media (max-width:768px) {
 .blog-honest {
@@ -29,14 +33,11 @@
 }
 
 @media (max-width:900px) {
-
   .main-nav {
       height: 80px;
   }
   .logo {
-
-    margin-top: 40px;
-    
+    margin-top: 40px;    
 }
   /* бургер-меню: */
 .menu-btn {
@@ -89,16 +90,16 @@
     transition-duration: .25s;
     box-shadow: 10px 15px 8px rgba(49, 49, 49, 0.5);
   }
-a.products {
-  /* visibility: hidden; */
+h2+a.products {
+  visibility: hidden;
+  width: inherit;
 }
   .first-page .btn {
     visibility: hidden;
-  }
-   
+  }   
   .menu-item {
     display: block;
-    padding: 20px;
+    padding: 20px 10px 20px 40px;
     color: #333;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
@@ -109,12 +110,9 @@ a.products {
   .menu-item:hover {
     background-color: #CFD8DC;
   }
-   
-   
   #menu-toggle{
     opacity: 0;
-  }
-   
+  }   
   #menu-toggle:checked ~ .menu-btn > span{
     transform: rotate(45deg);
   }

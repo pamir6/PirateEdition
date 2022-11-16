@@ -5,10 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pirate Edition</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/modal-chest.css">
 </head>
 <body>
+    <!-- модальное окно для сундука -->
+    <div class="modal" id="modal">
+        <div class="wrapper modal_body">
+            <button class="btn close-modal">X</button>закрыть окно
+            <p>Настоящий сундук для настоящих сокровищ пиратов. Изготовлен из натурального дерева (сосна). Золотые дублоны и пиастры для сохранности можно запереть на замок (в комплекте два ключа).
+                Ручки из прочного джутового каната выдержат вес сундука, полного золота и бриллиантов!
+                Сокровища в комплект НЕ входят.
+                Внешний размер 30х20х20 см. Внутренний -28х18х17 см.
+                Отличный подарок маленькому морскому разбойнику! Или разбойнице!
+                Прекрасный аксессуар для пиратской вечеринки.</p>
+                <h4>цена: 4 350 руб.</h4>
+            <img class="product" tabindex="0" src="img/chest.jpg" alt="">
+            <img class="product" tabindex="0" src="img/chest002.jpg" alt="">
+            <img class="product" tabindex="0" src="img/chest003.jpg" alt="">
+            <div></div>
+            <a href="javascript:void(0);" class="btn cart">в корзину</a>
+        </div>
+    </div>
+    <!-- модальное окно для полки -->
+    <div class="modal-02" id="modal-02">
+        <div class="wrapper modal_body-02">
+            <button class="btn close-modal-02">X</button>
+            <p>Полка для детской комнаты сделана из натурального дерева (массив сосны), в пиратском стиле, 
+                с пиратскими изображениями, морскими канатами и узлами, покрыта лаком. Цвет- палисандр. 
+                Для экономии места в комнате может быть сложена к стене без специального демонтажа.</p>
+                <p>Вес и габариты: 1,7 кг</p>
+                <h4><b>цена: 1700 руб.</b></h4>
+            <img class="product" tabindex="0" src="img/shelf.jpg" alt="">
+            <img class="product" tabindex="0" src="img/shelf_001.jpg" alt="">
+            <img class="product" tabindex="0" src="img/shelf_002.jpg" alt="">
+            <a href="javascript:void(0);" class="btn cart">в корзину</a>
+            <div></div>
+        </div>
+    </div>
+    <!-- модальное окно для фоторамки -->
+    <div class="modal-03" id="modal-03">
+        <div class="wrapper modal_body-03">
+            <button class="btn close-modal-03">X</button>
+            <p> Рамка для фото, картины, диплома, грамоты. Для секретной пиратской карты. 
+                Дополнит интерьер комнаты маленького (да и большого) морского разбойника (разбойницы). <br>Формат - А4
+            </p>
+                <h4><b>цена: 350 руб.</b></h4>
+            <img class="product" tabindex="0" src="img/frame.jpg" alt="">
+            <a href="javascript:void(0);" class="btn cart">в корзину</a>
+            <div></div>
+        </div>
+    </div>
+    <!-- конец модальных окон -->
     <header class="site-header">
         <nav class="main-nav">
             <a href="index.html"><img class="logo" src="img/logo-top.png" alt="logo"></a>
@@ -22,7 +71,7 @@
                 <li class="menu-item"><a href="#products">Каталог</a></li>
                 <li class="menu-item"><a href="#">Вход</a></li>
                 <li class="menu-item"><a href="#">Корзина</a></li>
-                <img class="scull" src="img/j_roger.png" alt="">
+                <!-- <img class="scull" src="img/j_roger.png" alt=""> -->
             </ul>
         </nav>
         <div class="bottom-edge-white"></div>
@@ -30,14 +79,14 @@
     <main>
         <!-- <section "first-page"> -->
                         <h1 class="edition">Pirate edition</h1>
-                        <h2>Самые нужные вещи для настоящих морских разбойников!</h2>    
+                        <h2>Самые нужные вещи для настоящих морских разбойников!</h2>  
                         <a href="#products" class="btn products">к товарам</a>           
         <!-- </section> -->
         <section class="promo"> 
             <div class="top-edge-white"></div>
             <div class="center-part">                 
                 <h1>Вы любите истории про пиратов?</h1>
-                <img id=flag src="img/jolly-roger.jpg" class="flag" alt="">    
+                <!-- <img id=flag src="img/jolly-roger.jpg" class="flag" alt="">     -->
                 <div class="advent">
                     Мечтаете о морских приключениях, страшных тайнах и пиратских кладах?
                     Тогда вы там, где нужно!
@@ -74,24 +123,24 @@
                 <h1 id="products" class="stuff">PIRATE STUFF</h1>
             </div>
             <div class="showroom">
-                <!-- Здесь будут картинки продукции -->
+                <!-- Здесь будут фотки продукции -->
                 <div class="chest">
-                    <a href="#"><img src="img/chest.jpg" alt="Pirate chest" class="avatar"></a>
+                    <img src="img/chest.jpg" alt="Pirate chest" class="avatar">
                     <p class="descript">Пиратский сундук 
                         для сокровищ</p>
-                    <a href="#" class="btn">ПОСМОТРЕТЬ</a>
+                    <a href="javascript:void(0);" class="btn observ-01">ПОСМОТРЕТЬ</a>
                 </div>
                 <div class="shelf">
-                    <a href="#"><img src="img/shelf.jpg" alt="Pirate shelf" class="avatar"></a>
+                    <img src="img/shelf.jpg" alt="Pirate shelf" class="avatar">
                     <p class="descript">Пиратская полка 
                         для книг, игрушек</p>
-                    <a href="#" class="btn">ПОСМОТРЕТЬ</a>
+                    <a href="javascript:void(0);" class="btn observ-02">ПОСМОТРЕТЬ</a>
                 </div>
                 <div class="frame">
-                    <a href="#"><img src="img/frame.jpg" alt="Pirate photo frame" class="avatar"></a>
+                    <img src="img/frame.jpg" alt="Pirate photo frame" class="avatar">
                     <p class="descript">Пиратская
                         фоторамка</p>
-                    <a href="#" class="btn">ПОСМОТРЕТЬ</a>
+                    <a href="javascript:void(0);" class="btn observ-03">ПОСМОТРЕТЬ</a>
                 </div>
             </div>
             <div class="bottom-edge-white"></div>
@@ -126,6 +175,9 @@
                     </p>                    
             </nav>           
         </div>        
-    </footer>    
+    </footer>
+    <script src="js/modal-chest.js"></script>
+    <script src="js/modal-shelf.js"></script>
+    <script src="js/modal-frame.js"></script>
 </body>
 </html>
