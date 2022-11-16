@@ -1,5 +1,5 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:sans-serif;
 }
 body {
     width: 100%;
@@ -154,6 +154,7 @@ ul.nav-menu:hover .nav-menu::before {
     align-items: center;
     background-color: white;
     background-clip: border-box;
+
 }
 .promo {
     width: 100%;
@@ -162,7 +163,7 @@ ul.nav-menu:hover .nav-menu::before {
     display: block;
     padding: 5%;
     align-items: center;
-    font-family:'Courier New', Courier, monospace;
+    /* font-family:'Courier New', Courier, monospace; */
     /* font-weight: bold; */
     font-size: xx-large;
     text-align: center;
@@ -270,9 +271,9 @@ h1.edition, h1.stuff{
 }
 h1 {
     text-align: left;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 70px;
     /* width: 100%; */
     padding-left: 10%;
     width: 80%;    
@@ -280,8 +281,7 @@ h1 {
 h2 {
     width: 80%;
     margin-right: 10%;
-    padding-left: 10%;
-    
+    padding-left: 10%;  
 }
 a.products {
     margin-left: 30%;
@@ -303,6 +303,16 @@ a.products {
 }
 #menu-toggle{
     opacity: 0;
+  }
+  .container p {
+    text-align: justify;
+    /* padding-right: 10%; */
+  }
+  .blog-text p{
+    text-align: justify;
+  }
+  .strike {
+    text-decoration: line-through;
   }
 
 
