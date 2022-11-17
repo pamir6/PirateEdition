@@ -9,8 +9,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top right;
-    margin: 0;
-    
+    margin: 0; 
 }
 .site-header {
     font-weight: bold;
@@ -130,10 +129,8 @@ ul.nav-menu:hover .nav-menu::before {
     width: 30px;margin-bottom: -10px;
 }
 .top-edge-white {
-    /* border: 1px solid white; */
     text-align: right;    
     font-size: 60px;
-    /* margin-top: 100px; */
     margin-bottom: -1px;
     background-image: url(../img/top-line.png);
     background-position: bottom right;
@@ -145,7 +142,6 @@ ul.nav-menu:hover .nav-menu::before {
     height: 150px;
 }
 .promo .center-part {
-    /* border: 2px solid white; */
     width: 100%;
     min-width: 360px;
     display: flex;
@@ -154,7 +150,6 @@ ul.nav-menu:hover .nav-menu::before {
     align-items: center;
     background-color: white;
     background-clip: border-box;
-
 }
 .promo {
     width: 100%;
@@ -163,8 +158,6 @@ ul.nav-menu:hover .nav-menu::before {
     display: block;
     padding: 5%;
     align-items: center;
-    /* font-family:'Courier New', Courier, monospace; */
-    /* font-weight: bold; */
     font-size: xx-large;
     text-align: center;
 }
@@ -226,7 +219,6 @@ ul.nav-menu:hover .nav-menu::before {
     background-color: #c79350;
     box-shadow: 5px 5px 10px rgb(75, 74, 74);
 }
-
 .btn {
     display: inline-block; 
     position: relative;
@@ -240,7 +232,6 @@ ul.nav-menu:hover .nav-menu::before {
     padding: 5px 20px;
     text-align: center;
     max-width: fit-content;
-    /* min-width: 200px; */
 }
 .btn:active {
     border: 2px inset rgb(119, 116, 116) ;
@@ -266,7 +257,7 @@ h1.edition, h1.stuff {
     display: block;
     color:rgb(0, 0, 0);
     font-weight: normal;
-    text-shadow: 8px 10px 5px rgba(29, 28, 28, 0.5);
+    text-shadow: 15px 15px 5px rgba(29, 28, 28, 0.5);
     font-family: Arlekino;
 }
 .PE {
@@ -275,10 +266,8 @@ h1.edition, h1.stuff {
 }
 h1 {
     text-align: left;
-    /* text-transform: uppercase; */
     font-weight: lighter;
     font-size: 70px;
-    /* width: 100%; */
     padding-left: 10%;
     width: 80%;    
 }
@@ -308,17 +297,7 @@ a.products {
 #menu-toggle{
     opacity: 0;
   }
-  .container p {
-    text-align: justify;
-    font-weight: bold;
-    /* padding-right: 10%; */
-  }
-  .blog-text p{
-    text-align: justify;
-  }
-  .strike {
-    text-decoration: line-through;
-  }
+
 
 
 

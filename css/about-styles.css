@@ -24,7 +24,6 @@ p {
     display: flex;
     flex-direction: column-reverse;
     text-align: left;
-    /* height: 5px; */
     font-family: Arlekino;
     color:#000000 ;
     text-shadow:0px 0px 10px #feffc9;
@@ -39,6 +38,21 @@ p {
     font-size: 40px;
 }
 }
-.green {
-    color: #239108;
+.orange {
+    color: #F77400;
 }
+.container p {
+    text-align: justify;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+  .blog-text p{
+    text-align: justify;
+  }
+  .strike {
+    text-decoration-line: 2px line-through;
+    text-decoration-color: red;
+  }
+  .container img {
+    margin-top: 16px;
+  }

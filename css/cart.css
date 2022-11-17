@@ -1,0 +1,23 @@
+.roger {
+    width: 20%;
+}
+.hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    margin: -1px;
+    opacity: 0;
+}
+#login, #password {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 17px 20px 17px 23px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
