@@ -50,7 +50,7 @@ p {
     text-align: justify;
   }
   .strike {
-    text-decoration-line: 2px line-through;
+    text-decoration-line: line-through;
     text-decoration-color: red;
   }
   .container img {

@@ -16,7 +16,7 @@
     border-radius: 25px;
     color: black;
     width: 80%;
-    height: 80%;
+    height: 60%;
     padding: 5%;
     text-align: justify;
     /* margin-top: 5%;
@@ -25,6 +25,10 @@
 .close-modal, .close-modal-02, .close-modal-03{
     background: #F77400;
 } 
+.photo {
+    display: flex;
+
+}
 .product {
     width: 15%;
     align-self: center;
@@ -53,4 +57,17 @@
     background: #fff;
     cursor: zoom-out;
     z-index: 1;
+  }
+  .close {
+    color: #fff;
+  }
+  .product:focus + span {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 70%;
+    left: 50%;
+    right: 50px;
+    /* bottom: 0; */
+    
+    z-index: 2;
   }
