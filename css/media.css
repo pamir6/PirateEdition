@@ -42,12 +42,13 @@
 }
   /* бургер-меню: */
 .menu-btn {
+  
     display: flex;
     align-items: center;
     position: absolute;
     /* top: 0;
     right:0; */
-    margin-left: 150px;
+    margin-left: 168px;
     margin-top: 10px;
     width: 26px;
     height: 26px;
@@ -83,7 +84,7 @@
     left: -100%;
     width: auto;
     min-width: 210px;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     padding: 10px 0;
     list-style: none;
     background-color: #eceff1bd;
